@@ -88,7 +88,7 @@ class Uphold(object):
     def auth_pat(self, pat):
         """
         Sets the authentication method to PAT, or "Personal Access Token." Before calling this
-        method, a PAT needs to be created using the create_path() method. 
+        method, a PAT needs to be created using the create_pat() method. 
 
         :param String pat The personal access token
 
